@@ -140,6 +140,6 @@ agent-os/
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Lenis45/Lenis45/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
+<img src="https://raw.githubusercontent.com/Lenis45/Lenis45/output/github-contribution-grid-snake-dark.svg?v=2" alt="contribution snake" />
 
 </div>
