@@ -284,5 +284,13 @@ if paid_calls_this_month >= BUDGET_LIMIT:
 <div align="center">
 
 [![agent-os](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=agent-os&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/agent-os)
+[![online-store](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=online-store&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/online-store)
+
+</div>
+
+<div align="center">
+
+[![3d_portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=3d_portfolio&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/3d_portfolio)
+[![lenis45.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=lenis45.github.io&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/lenis45.github.io)
 
 </div>
