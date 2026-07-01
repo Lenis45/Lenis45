@@ -250,24 +250,12 @@ if paid_calls_this_month >= BUDGET_LIMIT:
 
 ---
 
-### Stats
+### GitHub stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Lenis45&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Lenis45&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-
-</div>
-
-<div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lenis45&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&hide=html,css" />
-
-</div>
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Lenis45&theme=algolia&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Lenis45&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=86400&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&rank_icon=github" />
+<img height="170" src="https://streak-stats.demolab.com?user=Lenis45&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
 
 </div>
 
@@ -279,18 +267,33 @@ if paid_calls_this_month >= BUDGET_LIMIT:
 
 ---
 
-### Featured
+### Featured projects
 
-<div align="center">
+**[🤖 agent-os](https://github.com/Lenis45/agent-os)** — personal AI operating system: 9 agents, 5 departments, running 24/7 on a Mac Mini
 
-[![agent-os](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=agent-os&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/agent-os)
-[![online-store](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=online-store&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/online-store)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![Groq](https://img.shields.io/badge/Groq_LLaMA_3.3-F55036?style=flat-square)
+![FastMCP](https://img.shields.io/badge/FastMCP-6B46C1?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
 
-</div>
+**[🌐 lenis45.github.io](https://github.com/Lenis45/lenis45.github.io)** — personal portfolio site · [live ↗](https://lenis45.github.io)
 
-<div align="center">
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white&style=flat-square)
 
-[![3d_portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=3d_portfolio&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/3d_portfolio)
-[![lenis45.github.io](https://github-readme-stats.vercel.app/api/pin/?username=Lenis45&repo=lenis45.github.io&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)](https://github.com/Lenis45/lenis45.github.io)
+**[🛒 online-store](https://github.com/Lenis45/online-store)** — full-stack store: React SPA + Node/Express REST API + PostgreSQL
 
-</div>
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=flat-square)
+![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![MobX](https://img.shields.io/badge/MobX-FF9955?logo=mobx&logoColor=white&style=flat-square)
+
+**[🎮 3d_portfolio](https://github.com/Lenis45/3d_portfolio)** — interactive 3D developer portfolio with animated scenes
+
+![Three.js](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white&style=flat-square)
