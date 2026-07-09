@@ -2,194 +2,194 @@
 
 # Denis Kolesnikov / Lenis45
 
-**Founder-operator building Amori and local AI operating systems for real work**
+**AI Systems Engineer · Product Automation · Full-Stack Builder**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=860&lines=AI+systems+%C2%B7+product+automation+%C2%B7+startup+operations;Amori+%E2%80%94+pet-tech+GPS+collar+product;agent-os+%E2%80%94+local+AI+team+with+HITL+and+audit;SMM+automation+%E2%80%94+brief+to+post+to+review+to+delivery)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=I+build+AI-powered+systems+that+operate+real+workflows;Founder-operator+behind+Amori+pet-tech;Local+agent+teams+%C2%B7+dashboards+%C2%B7+queues+%C2%B7+audit+trails;Python+%C2%B7+PostgreSQL+%C2%B7+FastAPI+%C2%B7+React+%C2%B7+Docker)](https://git.io/typing-svg)
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-runtime-009688?logo=fastapi&logoColor=white&style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-runtime-009688?logo=fastapi&logoColor=white&style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white&style=for-the-badge)
+![React](https://img.shields.io/badge/React-UI-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+
 ![Groq](https://img.shields.io/badge/Groq-GPT_OSS_120B-F55036?style=flat-square)
 ![DeepSeek](https://img.shields.io/badge/DeepSeek-V4_Flash-4B6BFB?style=flat-square)
 ![Qdrant](https://img.shields.io/badge/Qdrant-vector_memory-DC244C?style=flat-square)
 ![Telegram](https://img.shields.io/badge/Telegram-operator_UI-26A5E4?logo=telegram&logoColor=white&style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-local_tools-6B46C1?style=flat-square)
 
 </div>
 
 ---
 
-## What I Build
+## Employer Snapshot
 
-I build practical AI infrastructure around a real startup, not isolated demos.
-My main product context is **Amori**: a pet-tech project around GPS collars for
-pet owners. Around that business I am building:
-
-| Area | What it means in practice |
-|---|---|
-| **AI operating systems** | Local agent teams, task queues, dashboards, audits, backups, MCP tools |
-| **SMM automation** | Brief -> branded copy -> visual -> editorial review -> scheduled/approved Telegram delivery |
-| **Founder operations** | Email triage, calendar support, CRM/lead flows, knowledge capture, reports |
-| **Commercial product engineering** | Private Amori product and SMM automation code, with public architecture overviews |
-| **Frontend/product UX** | Operator dashboards, 3D/interactive portfolio work, React/TypeScript interfaces |
-
-The core principle is simple:
-
-> AI prepares, checks, routes, and drafts. A human approves irreversible public
-> actions such as publishing, customer communication, and external changes.
-
----
-
-## Current System Map
-
-```mermaid
-flowchart TB
-    Denis["Denis<br/>founder / operator"]
-
-    subgraph Products["Products"]
-        Amori["Amori<br/>pet-tech GPS collar product"]
-        SMM["Amori SMM Factory<br/>commercial local-box workflow"]
-        AgentOS["agent-os<br/>personal AI operating system"]
-    end
-
-    subgraph Interfaces["Operator interfaces"]
-        Telegram["Telegram bots"]
-        Dashboard["Local dashboard :8099"]
-        MCP["MCP tools<br/>Codex / Claude / Hermes"]
-        GitHub["Public architecture repos"]
-    end
-
-    subgraph Runtime["Runtime"]
-        Agents["AI agents<br/>operations, support, content, research"]
-        Queue["PostgreSQL task queue"]
-        Memory["Qdrant + Obsidian memory"]
-        Workers["launchd / Docker workers"]
-    end
-
-    Denis --> Telegram
-    Denis --> Dashboard
-    Denis --> MCP
-    Denis --> GitHub
-
-    AgentOS --> Agents
-    SMM --> Agents
-    Amori --> SMM
-    Agents --> Queue
-    Agents --> Memory
-    Agents --> Workers
-```
+<table>
+  <tr>
+    <td width="50%">
+      <h3>What I Do</h3>
+      <p>
+        I design and build AI-powered product systems: agent workflows, local automation,
+        dashboards, data boundaries, and human-in-the-loop tools that help real teams move faster.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>Where I Fit</h3>
+      <p>
+        AI Engineer, Backend/Product Engineer, Automation Architect, or Full-Stack Engineer on teams
+        building internal tools, AI workflows, operational platforms, or early-stage products.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>Current Focus</h3>
+      <p>
+        Building <b>Amori</b>, a pet-tech GPS collar product, and the supporting AI operating
+        system that helps run founder operations, SMM, support, CRM, and knowledge workflows.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>Engineering Style</h3>
+      <p>
+        I prefer working systems over demos: tests, audit trails, clear failure states, safe secrets,
+        documented architecture, and product interfaces a non-engineer can actually use.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Featured Repositories
+## Selected Work
 
-### [agent-os](https://github.com/Lenis45/agent-os)
-
-Public repository for my local Amori AI operating system.
-
-What is real today:
-
-- macOS `launchd` + Docker Compose runtime
-- PostgreSQL 16, Qdrant, Redis, Langfuse, n8n
-- Telegram operator bots and local dashboard
-- MCP bridge for Codex / Claude / Hermes
-- agent tests: `90 passed`
-- Groq default moved away from deprecated Llama 3.3 to `openai/gpt-oss-120b`
-- human-in-the-loop content pipeline: `pending -> approved/ready/published/rejected`
-
-```mermaid
-flowchart LR
-    Goal["Goal / brief"] --> Orchestrator["Emilia / orchestrator"]
-    Orchestrator --> PM["project manager"]
-    PM --> Queue[("ops_db.tasks")]
-    Queue --> Worker["worker_dispatch"]
-    Worker --> Reports[("reports")]
-    Orchestrator --> Content["content_factory"]
-    Content --> Review{"human review"}
-    Review -->|approve| Publish["Telegram if configured"]
-    Review -->|manual| Ready["ready for manual publishing"]
-    Review -->|reject| Archive["audit trail"]
-```
-
-### [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform)
-
-Public product and architecture overview for the Amori SMM automation platform.
-The commercial implementation lives in a private repository, while this repo
-explains the product direction, local-box architecture, UX, and operating model.
-
-The product goal is not "another AI chat". It is a workflow for SMM specialists
-and marketers who need to prepare publishable content quickly without rebuilding
-prompts, brand rules, visual briefs, approvals, and scheduling by hand.
-
-### Private Amori Product Work
-
-Some work is intentionally private because it is commercial product code:
-
-- Amori product platform and product experiments
-- Amori SMM Factory implementation
-- private backups and local operational data
-- credentials, provider env, Telegram destinations, customer/support data
-
-Public repositories show architecture and selected implementation patterns.
-Private repositories hold commercial source, credentials are kept outside git.
-
-### [lenis45.github.io](https://github.com/Lenis45/lenis45.github.io)
-
-Personal portfolio site.
-
-### [ai-devkit](https://github.com/Lenis45/ai-devkit)
-
-Small public AI/dev tooling experiments.
-
-### [online-store](https://github.com/Lenis45/online-store)
-
-Full-stack store project: React frontend, Node/Express backend, PostgreSQL.
-
-### [3d_portfolio](https://github.com/Lenis45/3d_portfolio)
-
-Interactive 3D developer portfolio built with React and Three.js.
+<table>
+  <tr>
+    <td width="33%">
+      <h3><a href="https://github.com/Lenis45/agent-os">agent-os</a></h3>
+      <p>
+        Local AI operating system for Amori: agents, PostgreSQL task queue, dashboard,
+        Telegram operator UI, MCP bridge, backups, restore checks, and safety contracts.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/tests-90_passed-2EA043?style=flat-square" />
+        <img src="https://img.shields.io/badge/runtime-launchd%20%2B%20Docker-58A6FF?style=flat-square" />
+      </p>
+    </td>
+    <td width="33%">
+      <h3><a href="https://github.com/Lenis45/amori-smm-platform">amori-smm-platform</a></h3>
+      <p>
+        Public architecture and product overview for SMM automation: brief to branded post,
+        visual, review, calendar, approval, and Telegram delivery.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/domain-SMM_automation-4B6BFB?style=flat-square" />
+        <img src="https://img.shields.io/badge/HITL-required-2EA043?style=flat-square" />
+      </p>
+    </td>
+    <td width="33%">
+      <h3><a href="https://github.com/Lenis45/lenis45.github.io">portfolio</a></h3>
+      <p>
+        Personal portfolio and frontend presentation work. I use it to show product polish,
+        interaction design, and public-facing communication.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square" />
+        <img src="https://img.shields.io/badge/UI-product_polish-58A6FF?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <h3><a href="https://github.com/Lenis45/online-store">online-store</a></h3>
+      <p>
+        Full-stack store project with React, Node/Express, PostgreSQL, authentication and
+        product/order flows.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square" />
+      </p>
+    </td>
+    <td width="33%">
+      <h3><a href="https://github.com/Lenis45/3d_portfolio">3d_portfolio</a></h3>
+      <p>
+        Interactive 3D portfolio experiment built with React and Three.js, focused on visual
+        presentation and motion.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square" />
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square" />
+      </p>
+    </td>
+    <td width="33%">
+      <h3><a href="https://github.com/Lenis45/ai-devkit">ai-devkit</a></h3>
+      <p>
+        Public AI/dev tooling experiments and small utilities around AI-assisted engineering.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/AI_tooling-0D1117?style=flat-square" />
+        <img src="https://img.shields.io/badge/dev_experience-58A6FF?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## How I Think About AI Products
+## System Design Example
 
 ```mermaid
 flowchart LR
-    Chat["AI chat"] --> Draft["draft output"]
-    Draft --> Human["human copy/paste"]
-    Human --> Tool["external tool"]
+    Brief["Goal / brief"] --> Orchestrator["Orchestrator"]
+    Orchestrator --> Queue[("PostgreSQL task queue")]
+    Queue --> Workers["Role-based workers"]
+    Workers --> Artifacts["Reports / drafts / decisions"]
+    Artifacts --> Review{"Human review"}
+    Review -->|approve| Action["External action"]
+    Review -->|needs setup| Ready["Ready for manual handling"]
+    Review -->|reject| Archive["Audit trail"]
 
-    System["AI operating system"] --> Context["stored context"]
-    Context --> Workflow["workflow + roles"]
-    Workflow --> Guardrails["guardrails + audit"]
-    Guardrails --> Approval["human approval"]
-    Approval --> Action["real external action"]
+    subgraph Safety["Safety and reliability"]
+        Tests["Tests"]
+        Audit["Audit logs"]
+        Backup["Backup / restore checks"]
+        Secrets["Secrets outside git"]
+    end
+
+    Workers --> Safety
+    Action --> Audit
 ```
 
-The valuable part is usually not the text generation itself. The value is the
-system around generation:
-
-- persistent context and brand rules
-- repeatable workflows
-- role separation
-- audit trails
-- safe failure states
-- backups and restore checks
-- visible system health
-- clear public/private boundaries
+This is the pattern I keep applying: AI is useful when it is wrapped in
+state, permissions, review, observability, and recovery. The model call is only
+one part of the product.
 
 ---
 
-## Technical Focus
+## Skills Matrix
 
-| Layer | Tools and patterns I use |
+| Category | Strengths |
 |---|---|
-| AI runtime | Groq GPT OSS 120B, DeepSeek V4 Flash, Ollama/local fallbacks, deterministic guards |
-| Agent systems | Python, MCP, A2A-style JSON-RPC, queues, role-based workers, HITL |
-| Data | PostgreSQL, row-level boundaries, Qdrant vector memory, Obsidian notes |
-| Ops | Docker Compose, macOS launchd, backups, restore tests, support bundles |
-| Product UI | FastAPI, dependency-light HTML/CSS/JS, React, TypeScript, Three.js |
-| Commercial safety | private repos, untracked env, redacted diagnostics, no secrets in public docs |
+| AI systems | Agent workflows, prompt contracts, tool use, HITL, model fallback, MCP tools |
+| Backend | Python, FastAPI, PostgreSQL, queues, service boundaries, diagnostics |
+| Product automation | SMM workflow, CRM/lead flows, support workflows, calendar/email operations |
+| Frontend | React, TypeScript, dashboard UX, responsive interfaces, Three.js experiments |
+| Operations | Docker Compose, macOS launchd, backups, restore tests, support bundles |
+| Security mindset | No secrets in git, role boundaries, audit trails, fail-closed behavior |
+
+---
+
+## What Employers Can Evaluate Quickly
+
+| Signal | Where to look |
+|---|---|
+| System architecture and documentation | [agent-os README](https://github.com/Lenis45/agent-os) |
+| AI workflow product thinking | [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform) |
+| Frontend/product presentation | [lenis45.github.io](https://github.com/Lenis45/lenis45.github.io), [3d_portfolio](https://github.com/Lenis45/3d_portfolio) |
+| Full-stack fundamentals | [online-store](https://github.com/Lenis45/online-store) |
+| Current product context | Amori private/commercial work, represented through public architecture repos |
 
 ---
 
@@ -197,28 +197,37 @@ system around generation:
 
 | Priority | Work |
 |---|---|
-| P0 | Keep the Amori AI infrastructure truthful, testable, and recoverable |
-| P0 | Build the first usable SMM automation department for Amori |
-| P1 | Improve product UX for marketers: calendar, editorial studio, visual assets, automations |
-| P1 | Keep public GitHub docs aligned with real system behavior |
-| P2 | Turn more private product learnings into safe public architecture notes |
+| P0 | Build Amori SMM automation into a usable product workspace |
+| P0 | Keep `agent-os` truthful, tested, recoverable, and safe to operate |
+| P1 | Improve UX for non-engineering users: editorial studio, calendar, visuals, automation rules |
+| P1 | Publish clean public architecture notes without leaking commercial code or secrets |
+| P2 | Turn reusable patterns into small tools and public examples |
 
 ---
 
-## Public Activity
+## Contact
 
 <div align="center">
 
-<img height="180" src="https://streak-stats.demolab.com?user=Lenis45&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Lenis45&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub](https://img.shields.io/badge/GitHub-Lenis45-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Lenis45)
+[![Portfolio](https://img.shields.io/badge/Portfolio-lenis45.github.io-58A6FF?style=for-the-badge)](https://lenis45.github.io)
+[![Main Project](https://img.shields.io/badge/Main_Project-agent--os-2EA043?style=for-the-badge)](https://github.com/Lenis45/agent-os)
 
 </div>
 
 ---
 
-## Contact / Identity
+## Activity And Graphs
 
-- GitHub: [Lenis45](https://github.com/Lenis45)
-- Portfolio: [lenis45.github.io](https://lenis45.github.io)
-- Main public systems to review: [agent-os](https://github.com/Lenis45/agent-os), [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform)
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Lenis45&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lenis45&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+
+<br />
+
+<img height="170" src="https://streak-stats.demolab.com?user=Lenis45&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Lenis45&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
