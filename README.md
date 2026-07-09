@@ -1,264 +1,215 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=AI+Engineer+%26+Automation+Architect;Python+%C2%B7+Go+%C2%B7+MCP+%C2%B7+Groq+%C2%B7+Qdrant+%C2%B7+Redis;9+autonomous+agents+%C2%B7+5+departments+%C2%B7+24%2F7;send+a+goal+on+Telegram+%E2%80%94+agents+ship+the+result)](https://git.io/typing-svg)
+# Denis Kolesnikov / Lenis45
+
+**Founder-operator building Amori and local AI operating systems for real work**
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=860&lines=AI+systems+%C2%B7+product+automation+%C2%B7+startup+operations;Amori+%E2%80%94+pet-tech+GPS+collar+product;agent-os+%E2%80%94+local+AI+team+with+HITL+and+audit;SMM+automation+%E2%80%94+brief+to+post+to+review+to+delivery)](https://git.io/typing-svg)
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-runtime-009688?logo=fastapi&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-GPT_OSS_120B-F55036?style=flat-square)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-V4_Flash-4B6BFB?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-vector_memory-DC244C?style=flat-square)
+![Telegram](https://img.shields.io/badge/Telegram-operator_UI-26A5E4?logo=telegram&logoColor=white&style=flat-square)
 
 </div>
 
 ---
 
-I design and run **autonomous AI agent systems** — teams of specialized agents that handle real operations without supervision. My current system manages a commercial product around the clock: it reads email, plans content, writes copy, coordinates tasks, syncs the CRM, and monitors infrastructure. I send a goal on Telegram. Agents do the rest.
+## What I Build
 
-That system is **[agent-os](https://github.com/Lenis45/agent-os)** — open source.
+I build practical AI infrastructure around a real startup, not isolated demos.
+My main product context is **Amori**: a pet-tech project around GPS collars for
+pet owners. Around that business I am building:
 
-<div align="center">
+| Area | What it means in practice |
+|---|---|
+| **AI operating systems** | Local agent teams, task queues, dashboards, audits, backups, MCP tools |
+| **SMM automation** | Brief -> branded copy -> visual -> editorial review -> scheduled/approved Telegram delivery |
+| **Founder operations** | Email triage, calendar support, CRM/lead flows, knowledge capture, reports |
+| **Commercial product engineering** | Private Amori product and SMM automation code, with public architecture overviews |
+| **Frontend/product UX** | Operator dashboards, 3D/interactive portfolio work, React/TypeScript interfaces |
 
-![Python](https://img.shields.io/badge/Python_3.12-3776AB?logo=python&logoColor=white&style=flat-square)
-![Go](https://img.shields.io/badge/Go_1.26-00ADD8?logo=go&logoColor=white&style=flat-square)
-![Groq](https://img.shields.io/badge/Groq_LLaMA_3.3_70B-F55036?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-4169E1?logo=postgresql&logoColor=white&style=flat-square)
-![FastMCP](https://img.shields.io/badge/FastMCP_stdio-6B46C1?style=flat-square)
+The core principle is simple:
 
-</div>
-
-<div align="center">
-
-![agents](https://img.shields.io/badge/agents-9-0d1117?style=flat-square&labelColor=58a6ff&color=0d1117)
-![departments](https://img.shields.io/badge/departments-5-0d1117?style=flat-square&labelColor=58a6ff&color=0d1117)
-![MCP tools](https://img.shields.io/badge/MCP_tools-11-0d1117?style=flat-square&labelColor=58a6ff&color=0d1117)
-![launchd](https://img.shields.io/badge/launchd_jobs-11-0d1117?style=flat-square&labelColor=58a6ff&color=0d1117)
-![uptime](https://img.shields.io/badge/uptime-24%2F7-0d1117?style=flat-square&labelColor=58a6ff&color=0d1117)
-
-</div>
+> AI prepares, checks, routes, and drafts. A human approves irreversible public
+> actions such as publishing, customer communication, and external changes.
 
 ---
 
-### Agent hierarchy
+## Current System Map
 
 ```mermaid
-graph TD
-    You["📱 You — Telegram / Dashboard"] --> E
+flowchart TB
+    Denis["Denis<br/>founder / operator"]
 
-    E["🤖 Emilia<br/>Orchestrator"] --> PM
-    E --> CF
+    subgraph Products["Products"]
+        Amori["Amori<br/>pet-tech GPS collar product"]
+        SMM["Amori SMM Factory<br/>commercial local-box workflow"]
+        AgentOS["agent-os<br/>personal AI operating system"]
+    end
 
-    PM["📋 Project Manager<br/>decomposes goals into tasks"] --> Q
+    subgraph Interfaces["Operator interfaces"]
+        Telegram["Telegram bots"]
+        Dashboard["Local dashboard :8099"]
+        MCP["MCP tools<br/>Codex / Claude / Hermes"]
+        GitHub["Public architecture repos"]
+    end
 
-    Q[("🗄️ ops_db<br/>task queue")] --> W
+    subgraph Runtime["Runtime"]
+        Agents["AI agents<br/>operations, support, content, research"]
+        Queue["PostgreSQL task queue"]
+        Memory["Qdrant + Obsidian memory"]
+        Workers["launchd / Docker workers"]
+    end
 
-    W["⚙️ Worker<br/>router"] --> C["✍️ Copywriter"]
-    W --> D["🎨 Designer"]
-    W --> DV["💻 Dev"]
-    W --> R["🔍 Researcher"]
-    W --> RV["✅ Reviewer"]
+    Denis --> Telegram
+    Denis --> Dashboard
+    Denis --> MCP
+    Denis --> GitHub
 
-    CF["🏭 Content Factory<br/>brief → copy → image → publish"] --> You
-
-    E --> OPS
-    OPS["🔧 Ops Department"] --> EW["📧 Email Watchdog"]
-    OPS --> CRM["📊 CRM Agent"]
-    OPS --> CAL["📅 Calendar"]
-    OPS --> KB["🗂 KB Curator"]
-    OPS --> MON["🖥 Infra Monitor"]
+    AgentOS --> Agents
+    SMM --> Agents
+    Amori --> SMM
+    Agents --> Queue
+    Agents --> Memory
+    Agents --> Workers
 ```
 
 ---
 
-### How a task moves through the system
+## Featured Repositories
 
-```mermaid
-sequenceDiagram
-    participant You as 📱 Telegram
-    participant E as Emilia
-    participant PM as Project Manager
-    participant DB as ops_db
-    participant W as Worker
-    participant LLM as Groq LLaMA 3.3
+### [agent-os](https://github.com/Lenis45/agent-os)
 
-    You->>E: "write a product launch post"
-    E->>PM: decompose into subtasks
-    PM->>DB: INSERT tasks (research → copy → review) with deps
-    DB-->>W: pick up "research" (no deps, ready)
-    W->>LLM: researcher prompt + context
-    LLM-->>W: research output
-    W->>DB: UPDATE task status=done, result=...
+Public repository for my local Amori AI operating system.
 
-    DB-->>W: pick up "copy" (dep satisfied)
-    W->>DB: SELECT result FROM tasks WHERE id=research_task_id
-    Note over W: reviewer gets exact copywriter output<br/>via recursive CTE — zero context gap
-    W->>LLM: copywriter prompt + research result
-    LLM-->>W: draft copy
-    W->>DB: UPDATE, cascade to reviewer
+What is real today:
 
-    DB-->>W: pick up "review"
-    W->>LLM: reviewer prompt + full chain
-    LLM-->>W: approved / edits
-    W->>You: 📊 report to Telegram
-```
-
----
-
-### Context passing between agents — recursive CTE
-
-Each worker fetches not just its own task but the complete output chain of all upstream dependencies. The reviewer gets the exact text the copywriter produced — no summaries, no lost context.
-
-```sql
--- agents/db.py — fetch_task_with_context()
-WITH RECURSIVE dep_chain AS (
-    SELECT t.id, t.task_type, t.result, t.depends_on
-    FROM tasks t
-    WHERE t.id = %(task_id)s
-
-    UNION ALL
-
-    SELECT t.id, t.task_type, t.result, t.depends_on
-    FROM tasks t
-    JOIN dep_chain d ON t.id = d.depends_on
-)
-SELECT task_type, result
-FROM dep_chain
-ORDER BY id;
-```
-
----
-
-### Content factory pipeline
+- macOS `launchd` + Docker Compose runtime
+- PostgreSQL 16, Qdrant, Redis, Langfuse, n8n
+- Telegram operator bots and local dashboard
+- MCP bridge for Codex / Claude / Hermes
+- agent tests: `90 passed`
+- Groq default moved away from deprecated Llama 3.3 to `openai/gpt-oss-120b`
+- human-in-the-loop content pipeline: `pending -> approved/ready/published/rejected`
 
 ```mermaid
 flowchart LR
-    B["📝 Brief\n(topic, tone, platform)"] -->|Emilia sends| CF
-
-    subgraph CF["🏭 Content Factory"]
-        direction TB
-        S1["1 · Researcher\ncollects facts + context"] --> S2
-        S2["2 · Copywriter\nwrites post from brief + facts"] --> S3
-        S3["3 · Image prompter\ngenerates DALL-E prompt"] --> S4
-        S4["4 · Formatter\nadapts tone per platform"]
-    end
-
-    CF -->|pending| TG["📱 Telegram\nYou approve / reject"]
-    TG -->|approved| PUB["🚀 Published\nto channel / site"]
-    TG -->|rejected + note| CF
+    Goal["Goal / brief"] --> Orchestrator["Emilia / orchestrator"]
+    Orchestrator --> PM["project manager"]
+    PM --> Queue[("ops_db.tasks")]
+    Queue --> Worker["worker_dispatch"]
+    Worker --> Reports[("reports")]
+    Orchestrator --> Content["content_factory"]
+    Content --> Review{"human review"}
+    Review -->|approve| Publish["Telegram if configured"]
+    Review -->|manual| Ready["ready for manual publishing"]
+    Review -->|reject| Archive["audit trail"]
 ```
+
+### [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform)
+
+Public product and architecture overview for the Amori SMM automation platform.
+The commercial implementation lives in a private repository, while this repo
+explains the product direction, local-box architecture, UX, and operating model.
+
+The product goal is not "another AI chat". It is a workflow for SMM specialists
+and marketers who need to prepare publishable content quickly without rebuilding
+prompts, brand rules, visual briefs, approvals, and scheduling by hand.
+
+### Private Amori Product Work
+
+Some work is intentionally private because it is commercial product code:
+
+- Amori product platform and product experiments
+- Amori SMM Factory implementation
+- private backups and local operational data
+- credentials, provider env, Telegram destinations, customer/support data
+
+Public repositories show architecture and selected implementation patterns.
+Private repositories hold commercial source, credentials are kept outside git.
+
+### [lenis45.github.io](https://github.com/Lenis45/lenis45.github.io)
+
+Personal portfolio site.
+
+### [ai-devkit](https://github.com/Lenis45/ai-devkit)
+
+Small public AI/dev tooling experiments.
+
+### [online-store](https://github.com/Lenis45/online-store)
+
+Full-stack store project: React frontend, Node/Express backend, PostgreSQL.
+
+### [3d_portfolio](https://github.com/Lenis45/3d_portfolio)
+
+Interactive 3D developer portfolio built with React and Three.js.
 
 ---
 
-### MCP server — 11 tools for Claude Code / Codex
+## How I Think About AI Products
 
-```python
-# mcp/server.py — FastMCP stdio transport
-# Claude Code connects: claude mcp add agent-os -- python mcp/server.py
+```mermaid
+flowchart LR
+    Chat["AI chat"] --> Draft["draft output"]
+    Draft --> Human["human copy/paste"]
+    Human --> Tool["external tool"]
 
-@mcp.tool()
-def sql_read(query: str, db: str) -> list[dict]:
-    """SELECT-only. Whitelisted DBs: ops_db, customer_db. No DDL."""
-
-@mcp.tool()
-def list_tasks(status: str = "running") -> list[dict]:
-    """running / queued / failed / done — full task board"""
-
-@mcp.tool()
-def list_projects() -> list[dict]: ...
-def project_status(project_id: int) -> dict: ...
-def recent_reports(limit: int = 10) -> list[dict]: ...
-def system_status() -> dict: ...          # agent heartbeats + PIDs
-
-def list_content(status: str) -> list[dict]: ...   # content pipeline
-def create_content(brief: str) -> dict: ...
-def approve_content(content_id: int) -> dict: ...
-def reject_content(content_id: int, note: str) -> dict: ...
-
-def new_project(goal: str, context: str) -> dict: ...
+    System["AI operating system"] --> Context["stored context"]
+    Context --> Workflow["workflow + roles"]
+    Workflow --> Guardrails["guardrails + audit"]
+    Guardrails --> Approval["human approval"]
+    Approval --> Action["real external action"]
 ```
+
+The valuable part is usually not the text generation itself. The value is the
+system around generation:
+
+- persistent context and brand rules
+- repeatable workflows
+- role separation
+- audit trails
+- safe failure states
+- backups and restore checks
+- visible system health
+- clear public/private boundaries
 
 ---
 
-### Infrastructure — Mac Mini, always on
+## Technical Focus
 
-```
-Mac Mini (Apple M-series, 16 GB)
-│
-├── launchd (11 jobs, KeepAlive=true)
-│   ├── ai.emilia            Orchestrator — polls Telegram every 30 s
-│   ├── ai.project_manager   Picks up new projects from ops_db
-│   ├── ai.worker            Processes task queue, 4 parallel slots
-│   ├── ai.content_factory   Brief → publish pipeline
-│   ├── ai.email_watchdog    IMAP idle on Gmail, classifies on arrival
-│   ├── ai.crm_agent         Syncs contacts to Weeek every 10 min
-│   ├── ai.calendar_agent    Reads/writes Google Calendar
-│   ├── ai.kb_curator        Obsidian vault — tags, links, dedup
-│   ├── ai.infra_monitor     HTTP pings + B2 backup check every 5 min
-│   ├── ai.dashboard         Ops panel :8099 (psycopg2 pool)
-│   └── ai.office            Pixel office :5070 (React + Canvas)
-│
-├── PostgreSQL 16
-│   ├── ops_db               tasks, projects, reports, agent_config, content
-│   └── customer_db          users, leads, CRM data
-│
-├── Qdrant
-│   ├── project_knowledge    long-term memory per project
-│   └── shared_memory        cross-agent context store
-│
-└── Redis                    task dedup, rate-limit counters, pub/sub
-```
+| Layer | Tools and patterns I use |
+|---|---|
+| AI runtime | Groq GPT OSS 120B, DeepSeek V4 Flash, Ollama/local fallbacks, deterministic guards |
+| Agent systems | Python, MCP, A2A-style JSON-RPC, queues, role-based workers, HITL |
+| Data | PostgreSQL, row-level boundaries, Qdrant vector memory, Obsidian notes |
+| Ops | Docker Compose, macOS launchd, backups, restore tests, support bundles |
+| Product UI | FastAPI, dependency-light HTML/CSS/JS, React, TypeScript, Three.js |
+| Commercial safety | private repos, untracked env, redacted diagnostics, no secrets in public docs |
 
 ---
 
-### LLM routing
+## Current Priorities
 
-```python
-# agents/llm.py — model is chosen per task type, not per agent
-TASK_MODEL_MAP = {
-    "research":     "llama-3.3-70b-versatile",   # Groq — speed + depth
-    "copywriting":  "llama-3.3-70b-versatile",   # Groq
-    "code_task":    "qwen2.5-coder:32b",          # Ollama local — code
-    "design_brief": "gemma3:27b",                 # Ollama local — creative
-    "review":       "llama-3.3-70b-versatile",   # Groq
-    "ops":          "llama-3.3-70b-versatile",   # Groq
-}
-
-# Cost guard — cuts off paid API calls if monthly budget exceeded
-if paid_calls_this_month >= BUDGET_LIMIT:
-    model = OLLAMA_FALLBACK  # falls back to local GPU node
-```
+| Priority | Work |
+|---|---|
+| P0 | Keep the Amori AI infrastructure truthful, testable, and recoverable |
+| P0 | Build the first usable SMM automation department for Amori |
+| P1 | Improve product UX for marketers: calendar, editorial studio, visual assets, automations |
+| P1 | Keep public GitHub docs aligned with real system behavior |
+| P2 | Turn more private product learnings into safe public architecture notes |
 
 ---
 
-### Stack
-
-**AI / Agent layer**
-
-![Python](https://img.shields.io/badge/Python_3.12-3776AB?logo=python&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_LLaMA_3.3_70B-F55036)
-![Ollama](https://img.shields.io/badge/Ollama_local_GPU-000000)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-4169E1?logo=postgresql&logoColor=white)
-![FastMCP](https://img.shields.io/badge/FastMCP_stdio-6B46C1)
-![launchd](https://img.shields.io/badge/macOS_launchd-000000?logo=apple&logoColor=white)
-
-**Product backend (commercial · private)**
-
-![Go](https://img.shields.io/badge/Go_1.26-00ADD8?logo=go&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white)
-![Keycloak](https://img.shields.io/badge/Keycloak_26_RS256-4D4D4D)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?logo=react&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
-
----
-
-### GitHub stats
+## Public Activity
 
 <div align="center">
 
 <img height="180" src="https://streak-stats.demolab.com?user=Lenis45&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-
-</div>
-
-<div align="center">
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Lenis45&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
@@ -266,33 +217,8 @@ if paid_calls_this_month >= BUDGET_LIMIT:
 
 ---
 
-### Featured projects
+## Contact / Identity
 
-**[🤖 agent-os](https://github.com/Lenis45/agent-os)** — personal AI operating system: 9 agents, 5 departments, running 24/7 on a Mac Mini
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
-![Groq](https://img.shields.io/badge/Groq_LLaMA_3.3-F55036?style=flat-square)
-![FastMCP](https://img.shields.io/badge/FastMCP-6B46C1?style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
-
-**[🌐 lenis45.github.io](https://github.com/Lenis45/lenis45.github.io)** — personal portfolio site · [live ↗](https://lenis45.github.io)
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white&style=flat-square)
-
-**[🛒 online-store](https://github.com/Lenis45/online-store)** — full-stack store: React SPA + Node/Express REST API + PostgreSQL
-
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=flat-square)
-![Express](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
-![MobX](https://img.shields.io/badge/MobX-FF9955?logo=mobx&logoColor=white&style=flat-square)
-
-**[🎮 3d_portfolio](https://github.com/Lenis45/3d_portfolio)** — interactive 3D developer portfolio with animated scenes
-
-![Three.js](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white&style=flat-square)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=flat-square)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white&style=flat-square)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white&style=flat-square)
+- GitHub: [Lenis45](https://github.com/Lenis45)
+- Portfolio: [lenis45.github.io](https://lenis45.github.io)
+- Main public systems to review: [agent-os](https://github.com/Lenis45/agent-os), [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform)
