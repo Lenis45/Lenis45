@@ -1,4 +1,4 @@
-<svg width="860" height="62" viewBox="0 0 860 62" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="860" height="118" viewBox="0 0 860 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Role focus badges</title>
   <desc id="desc">Business Analysis, Automation, and AI Systems role badges.</desc>
   <defs>
@@ -15,10 +15,19 @@
       <stop offset="1" stop-color="#6b46c1"/>
     </linearGradient>
   </defs>
-  <rect x="28" y="11" width="246" height="40" rx="10" fill="url(#blue)"/>
-  <rect x="307" y="11" width="246" height="40" rx="10" fill="url(#green)"/>
-  <rect x="586" y="11" width="246" height="40" rx="10" fill="url(#purple)"/>
-  <text x="151" y="36" text-anchor="middle" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Business Analysis · process to system</text>
-  <text x="430" y="36" text-anchor="middle" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Automation · workflows and ops</text>
-  <text x="709" y="36" text-anchor="middle" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">AI Systems · HITL and audit</text>
+  <rect width="860" height="118" rx="0" fill="#ffffff" fill-opacity="0"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <rect x="28" y="18" width="256" height="82" rx="14" fill="url(#blue)"/>
+    <text x="156" y="52" fill="#ffffff" font-size="18" font-weight="800">Business Analysis</text>
+    <text x="156" y="78" fill="#e6f2ff" font-size="14" font-weight="600">process to system</text>
+
+    <rect x="302" y="18" width="256" height="82" rx="14" fill="url(#green)"/>
+    <text x="430" y="52" fill="#ffffff" font-size="18" font-weight="800">Automation</text>
+    <text x="430" y="78" fill="#e7f8ec" font-size="14" font-weight="600">workflows and ops</text>
+
+    <rect x="576" y="18" width="256" height="82" rx="14" fill="url(#purple)"/>
+    <text x="704" y="52" fill="#ffffff" font-size="18" font-weight="800">AI Systems</text>
+    <text x="704" y="78" fill="#f0e8ff" font-size="14" font-weight="600">HITL and audit</text>
+  </g>
 </svg>

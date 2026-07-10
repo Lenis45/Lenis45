@@ -4,11 +4,11 @@
 
 **Business/System Analyst · Automation Engineer · AI Product Systems Builder**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=940&lines=I+turn+business+processes+into+working+automation;AI-assisted+workflows+%C2%B7+dashboards+%C2%B7+queues+%C2%B7+audit;Founder-operator+building+Amori+pet-tech;Business+analysis+%2B+systems+design+%2B+implementation)](https://git.io/typing-svg)
+<img src="assets/hero-strip.svg" alt="I turn business processes into working automation with AI-assisted workflows, dashboards, queues, human approval, and audit" />
 
-<img width="860" src="assets/role-badges.svg" alt="Business Analysis, Automation, and AI Systems badges" />
+<img src="assets/role-badges.svg" alt="Business Analysis, Automation, and AI Systems badges" />
 <br />
-<img width="860" src="assets/tech-badges.svg" alt="Python, PostgreSQL, FastAPI, Docker, React, and MCP badges" />
+<img src="assets/tech-badges.svg" alt="Python, PostgreSQL, FastAPI, Docker, React, and MCP badges" />
 
 </div>
 
@@ -233,16 +233,14 @@ third-party stats limits.
 
 <div align="center">
 
-<img width="860" src="assets/github-public-snapshot.svg" alt="Public GitHub snapshot with repositories, proof projects, shared skills, and language focus" />
+<img src="assets/github-public-snapshot.svg" alt="Public GitHub snapshot with repositories, proof projects, shared skills, and language focus" />
 
 <br />
 
-<img width="860" src="assets/automation-focus-map.svg" alt="Automation focus map for business analysis, AI workflows, and full-stack automation" />
+<img src="assets/automation-focus-map.svg" alt="Automation focus map for business analysis, AI workflows, and full-stack automation" />
 
 <br />
 
-<img height="170" src="https://streak-stats.demolab.com?user=Lenis45&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Lenis45&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="assets/github-activity-summary.svg" alt="Public GitHub activity summary with local contribution cards and a 30 day activity bar chart" />
 
 </div>
