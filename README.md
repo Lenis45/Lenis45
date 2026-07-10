@@ -225,6 +225,8 @@ state, permissions, review, observability, recovery, and a UI that people can us
 [![Portfolio](https://img.shields.io/badge/Portfolio-lenis45.github.io-58A6FF?style=for-the-badge)](https://lenis45.github.io)
 [![Main Project](https://img.shields.io/badge/Main_Project-agent--os-2EA043?style=for-the-badge)](https://github.com/Lenis45/agent-os)
 
+<p><b>Telegram:</b> <a href="https://t.me/deni_kol">@deni_kol</a></p>
+
 </div>
 
 ---
