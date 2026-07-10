@@ -7,8 +7,8 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=940&lines=I+turn+business+processes+into+working+automation;AI-assisted+workflows+%C2%B7+dashboards+%C2%B7+queues+%C2%B7+audit;Founder-operator+building+Amori+pet-tech;Business+analysis+%2B+systems+design+%2B+implementation)](https://git.io/typing-svg)
 
 ![Business Analysis](https://img.shields.io/badge/Business_Analysis-process_to_system-58A6FF?style=for-the-badge)
-![Automation](https://img.shields.io/badge/Automation-workflows_&_ops-2EA043?style=for-the-badge)
-![AI Systems](https://img.shields.io/badge/AI_Systems-HITL_&_audit-6B46C1?style=for-the-badge)
+![Automation](https://img.shields.io/badge/Automation-workflows_%26_ops-2EA043?style=for-the-badge)
+![AI Systems](https://img.shields.io/badge/AI_Systems-HITL_%26_audit-6B46C1?style=for-the-badge)
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=flat-square)
@@ -235,11 +235,16 @@ state, permissions, review, observability, recovery, and a UI that people can us
 
 Public graphs show only open GitHub activity. Private commercial Amori work is
 represented through public architecture notes and selected safe screenshots.
+The summary cards below are local assets so the profile does not depend on
+third-party stats limits.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Lenis45&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lenis45&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+<img width="860" src="assets/github-public-snapshot.svg" alt="Public GitHub snapshot with repositories, proof projects, shared skills, and language focus" />
+
+<br />
+
+<img width="860" src="assets/automation-focus-map.svg" alt="Automation focus map for business analysis, AI workflows, and full-stack automation" />
 
 <br />
 
