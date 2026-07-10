@@ -2,20 +2,19 @@
 
 # Denis Kolesnikov / Lenis45
 
-**AI Systems Engineer · Product Automation · Full-Stack Builder**
+**Business/System Analyst · Automation Engineer · AI Product Systems Builder**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=I+build+AI-powered+systems+that+operate+real+workflows;Founder-operator+behind+Amori+pet-tech;Local+agent+teams+%C2%B7+dashboards+%C2%B7+queues+%C2%B7+audit+trails;Python+%C2%B7+PostgreSQL+%C2%B7+FastAPI+%C2%B7+React+%C2%B7+Docker)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=940&lines=I+turn+business+processes+into+working+automation;AI-assisted+workflows+%C2%B7+dashboards+%C2%B7+queues+%C2%B7+audit;Founder-operator+building+Amori+pet-tech;Business+analysis+%2B+systems+design+%2B+implementation)](https://git.io/typing-svg)
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=for-the-badge)
-![FastAPI](https://img.shields.io/badge/FastAPI-runtime-009688?logo=fastapi&logoColor=white&style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white&style=for-the-badge)
-![React](https://img.shields.io/badge/React-UI-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+![Business Analysis](https://img.shields.io/badge/Business_Analysis-process_to_system-58A6FF?style=for-the-badge)
+![Automation](https://img.shields.io/badge/Automation-workflows_&_ops-2EA043?style=for-the-badge)
+![AI Systems](https://img.shields.io/badge/AI_Systems-HITL_&_audit-6B46C1?style=for-the-badge)
 
-![Groq](https://img.shields.io/badge/Groq-GPT_OSS_120B-F55036?style=flat-square)
-![DeepSeek](https://img.shields.io/badge/DeepSeek-V4_Flash-4B6BFB?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-vector_memory-DC244C?style=flat-square)
-![Telegram](https://img.shields.io/badge/Telegram-operator_UI-26A5E4?logo=telegram&logoColor=white&style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-runtime-009688?logo=fastapi&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/React-product_UI-61DAFB?logo=react&logoColor=black&style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-local_tools-6B46C1?style=flat-square)
 
 </div>
@@ -27,33 +26,35 @@
 <table>
   <tr>
     <td width="50%">
-      <h3>What I Do</h3>
+      <h3>Positioning</h3>
       <p>
-        I design and build AI-powered product systems: agent workflows, local automation,
-        dashboards, data boundaries, and human-in-the-loop tools that help real teams move faster.
+        I combine business analysis, systems thinking, and hands-on engineering.
+        I map messy workflows, define the operating model, and build the tools that make the process repeatable.
       </p>
     </td>
     <td width="50%">
-      <h3>Where I Fit</h3>
+      <h3>Open To</h3>
       <p>
-        AI Engineer, Backend/Product Engineer, Automation Architect, or Full-Stack Engineer on teams
-        building internal tools, AI workflows, operational platforms, or early-stage products.
+        <img src="https://img.shields.io/badge/Business%2FSystem_Analyst-58A6FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/Automation_Engineer-2EA043?style=flat-square" />
+        <img src="https://img.shields.io/badge/AI_Workflow%2FProduct_Ops-6B46C1?style=flat-square" />
+        <img src="https://img.shields.io/badge/Full--Stack_Automation-0D1117?style=flat-square" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3>Current Focus</h3>
+      <h3>Current Product Context</h3>
       <p>
-        Building <b>Amori</b>, a pet-tech GPS collar product, and the supporting AI operating
-        system that helps run founder operations, SMM, support, CRM, and knowledge workflows.
+        I am building <b>Amori</b>, a pet-tech GPS collar product, plus a local AI operating system
+        that supports founder operations, SMM, support, CRM, and knowledge workflows.
       </p>
     </td>
     <td width="50%">
-      <h3>Engineering Style</h3>
+      <h3>Engineering Standard</h3>
       <p>
-        I prefer working systems over demos: tests, audit trails, clear failure states, safe secrets,
-        documented architecture, and product interfaces a non-engineer can actually use.
+        I avoid one-off demos. My work emphasizes tests, dashboards, stateful queues, audit trails,
+        safe failure modes, backups, and human approval for irreversible actions.
       </p>
     </td>
   </tr>
@@ -61,80 +62,115 @@
 
 ---
 
-## Selected Work
+## What I Solve
+
+| Business problem | How I approach it |
+|---|---|
+| Process chaos and undocumented operations | Discovery, process maps, role boundaries, system diagrams, acceptance criteria |
+| Manual SMM/content production | Brief-to-post workflow, brand rules, visual generation, review, scheduling, HITL publishing |
+| Weak internal tooling | Dashboards, queues, operational states, alerts, audit trails |
+| Fragmented CRM/support/email/calendar flows | Integration points, safe automation, local data boundaries, retry/recovery logic |
+| AI outputs that cannot be trusted | Guardrails, deterministic checks, approval gates, and proof of external actions |
+
+## How I Work
+
+```mermaid
+flowchart LR
+    Discovery["Discovery"] --> Map["System map"]
+    Map --> Data["Data/process model"]
+    Data --> Prototype["Working prototype"]
+    Prototype --> Automation["Automation"]
+    Automation --> Dashboard["Dashboard"]
+    Dashboard --> Audit["Audit + recovery"]
+```
+
+---
+
+## UI Proof
+
+<table>
+  <tr>
+    <td width="33%">
+      <img src="assets/agent-os-dashboard.png" alt="agent-os dashboard" />
+      <b>agent-os dashboard</b><br />
+      Local operating panel: agents, task queue, reports, budget, and system state.
+    </td>
+    <td width="33%">
+      <img src="assets/pixel-office.png" alt="pixel office agent visualization" />
+      <b>Pixel office</b><br />
+      Visual team map for agent roles, departments, and operational activity.
+    </td>
+    <td width="33%">
+      <img src="assets/smm-factory.png" alt="Amori SMM Factory login and positioning screen" />
+      <b>Amori SMM Factory</b><br />
+      Product interface for turning a brief into reviewed Telegram-ready content.
+    </td>
+  </tr>
+</table>
+
+All screenshots are public-safe: no tokens, private messages, customer records,
+channel IDs, or provider credentials are shown.
+
+---
+
+## Case Study Cards
 
 <table>
   <tr>
     <td width="33%">
       <h3><a href="https://github.com/Lenis45/agent-os">agent-os</a></h3>
       <p>
-        Local AI operating system for Amori: agents, PostgreSQL task queue, dashboard,
-        Telegram operator UI, MCP bridge, backups, restore checks, and safety contracts.
+        Local AI operating system for Amori: role-based agents, PostgreSQL task queue,
+        dashboard, Telegram operator UI, MCP bridge, backups, restore checks, and safety contracts.
       </p>
       <p>
         <img src="https://img.shields.io/badge/tests-90_passed-2EA043?style=flat-square" />
         <img src="https://img.shields.io/badge/runtime-launchd%20%2B%20Docker-58A6FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/HITL-required-6B46C1?style=flat-square" />
       </p>
     </td>
     <td width="33%">
-      <h3><a href="https://github.com/Lenis45/amori-smm-platform">amori-smm-platform</a></h3>
+      <h3><a href="https://github.com/Lenis45/amori-smm-platform">Amori SMM automation</a></h3>
       <p>
-        Public architecture and product overview for SMM automation: brief to branded post,
-        visual, review, calendar, approval, and Telegram delivery.
+        Public architecture and product overview for SMM automation: brief, branded copy,
+        visual, editorial review, scheduling, approval, and Telegram delivery.
       </p>
       <p>
         <img src="https://img.shields.io/badge/domain-SMM_automation-4B6BFB?style=flat-square" />
-        <img src="https://img.shields.io/badge/HITL-required-2EA043?style=flat-square" />
+        <img src="https://img.shields.io/badge/product-local_box-2EA043?style=flat-square" />
+        <img src="https://img.shields.io/badge/audit-visible-58A6FF?style=flat-square" />
       </p>
     </td>
     <td width="33%">
-      <h3><a href="https://github.com/Lenis45/lenis45.github.io">portfolio</a></h3>
+      <h3>Business automation mindset</h3>
       <p>
-        Personal portfolio and frontend presentation work. I use it to show product polish,
-        interaction design, and public-facing communication.
+        I model business operations as systems: process, data, roles, permissions,
+        dashboards, failure states, and measurable handoff between human and automation.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square" />
-        <img src="https://img.shields.io/badge/UI-product_polish-58A6FF?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%">
-      <h3><a href="https://github.com/Lenis45/online-store">online-store</a></h3>
-      <p>
-        Full-stack store project with React, Node/Express, PostgreSQL, authentication and
-        product/order flows.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square" />
-      </p>
-    </td>
-    <td width="33%">
-      <h3><a href="https://github.com/Lenis45/3d_portfolio">3d_portfolio</a></h3>
-      <p>
-        Interactive 3D portfolio experiment built with React and Three.js, focused on visual
-        presentation and motion.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square" />
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square" />
-      </p>
-    </td>
-    <td width="33%">
-      <h3><a href="https://github.com/Lenis45/ai-devkit">ai-devkit</a></h3>
-      <p>
-        Public AI/dev tooling experiments and small utilities around AI-assisted engineering.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/AI_tooling-0D1117?style=flat-square" />
-        <img src="https://img.shields.io/badge/dev_experience-58A6FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/process-modeling-58A6FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/data-boundaries-2EA043?style=flat-square" />
+        <img src="https://img.shields.io/badge/recovery-planned-6B46C1?style=flat-square" />
       </p>
     </td>
   </tr>
 </table>
+
+---
+
+## Selected Public Work
+
+| Project | What to evaluate |
+|---|---|
+| [agent-os](https://github.com/Lenis45/agent-os) | AI operating system architecture, runtime docs, tests, dashboard, MCP bridge |
+| [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform) | Product thinking and architecture for SMM automation |
+| [lenis45.github.io](https://github.com/Lenis45/lenis45.github.io) | Portfolio and public-facing product presentation |
+| [online-store](https://github.com/Lenis45/online-store) | Full-stack fundamentals: React, Node/Express, PostgreSQL |
+| [3d_portfolio](https://github.com/Lenis45/3d_portfolio) | Interactive UI, React, Three.js, visual presentation |
+
+Commercial Amori implementation work remains private. Public repositories show
+architecture, implementation patterns, and product reasoning without exposing
+source that belongs to the commercial product.
 
 ---
 
@@ -142,29 +178,28 @@
 
 ```mermaid
 flowchart LR
-    Brief["Goal / brief"] --> Orchestrator["Orchestrator"]
-    Orchestrator --> Queue[("PostgreSQL task queue")]
-    Queue --> Workers["Role-based workers"]
-    Workers --> Artifacts["Reports / drafts / decisions"]
-    Artifacts --> Review{"Human review"}
+    Brief["Business goal / brief"] --> Analyst["Analysis and workflow design"]
+    Analyst --> Model["Process + data model"]
+    Model --> Queue[("Task queue / system state")]
+    Queue --> Workers["Automation / AI agents"]
+    Workers --> Review{"Human review"}
     Review -->|approve| Action["External action"]
-    Review -->|needs setup| Ready["Ready for manual handling"]
+    Review -->|needs setup| Ready["Manual handling"]
     Review -->|reject| Archive["Audit trail"]
 
-    subgraph Safety["Safety and reliability"]
+    subgraph Reliability["Reliability layer"]
         Tests["Tests"]
-        Audit["Audit logs"]
-        Backup["Backup / restore checks"]
+        Monitoring["Dashboard"]
+        Backup["Backup / restore"]
         Secrets["Secrets outside git"]
     end
 
-    Workers --> Safety
-    Action --> Audit
+    Workers --> Reliability
+    Action --> Archive
 ```
 
-This is the pattern I keep applying: AI is useful when it is wrapped in
-state, permissions, review, observability, and recovery. The model call is only
-one part of the product.
+The model call is not the product. The product is the operating layer around it:
+state, permissions, review, observability, recovery, and a UI that people can use.
 
 ---
 
@@ -172,36 +207,12 @@ one part of the product.
 
 | Category | Strengths |
 |---|---|
-| AI systems | Agent workflows, prompt contracts, tool use, HITL, model fallback, MCP tools |
-| Backend | Python, FastAPI, PostgreSQL, queues, service boundaries, diagnostics |
-| Product automation | SMM workflow, CRM/lead flows, support workflows, calendar/email operations |
-| Frontend | React, TypeScript, dashboard UX, responsive interfaces, Three.js experiments |
-| Operations | Docker Compose, macOS launchd, backups, restore tests, support bundles |
-| Security mindset | No secrets in git, role boundaries, audit trails, fail-closed behavior |
-
----
-
-## What Employers Can Evaluate Quickly
-
-| Signal | Where to look |
-|---|---|
-| System architecture and documentation | [agent-os README](https://github.com/Lenis45/agent-os) |
-| AI workflow product thinking | [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform) |
-| Frontend/product presentation | [lenis45.github.io](https://github.com/Lenis45/lenis45.github.io), [3d_portfolio](https://github.com/Lenis45/3d_portfolio) |
-| Full-stack fundamentals | [online-store](https://github.com/Lenis45/online-store) |
-| Current product context | Amori private/commercial work, represented through public architecture repos |
-
----
-
-## Current Priorities
-
-| Priority | Work |
-|---|---|
-| P0 | Build Amori SMM automation into a usable product workspace |
-| P0 | Keep `agent-os` truthful, tested, recoverable, and safe to operate |
-| P1 | Improve UX for non-engineering users: editorial studio, calendar, visuals, automation rules |
-| P1 | Publish clean public architecture notes without leaking commercial code or secrets |
-| P2 | Turn reusable patterns into small tools and public examples |
+| Business/system analysis | Discovery, requirements, process mapping, data flows, system diagrams, acceptance criteria |
+| Automation | AI-assisted workflows, queues, scheduling, dashboards, alerts, support/CRM/content operations |
+| AI systems | Agent workflows, prompt contracts, model fallback, tool use, MCP, HITL, audit |
+| Backend | Python, FastAPI, PostgreSQL, service boundaries, diagnostics, reliability patterns |
+| Frontend/product UI | React, TypeScript, responsive dashboards, Three.js experiments, operator UX |
+| Operations/security | Docker Compose, macOS launchd, backups, restore tests, no secrets in git, fail-closed behavior |
 
 ---
 
@@ -210,6 +221,7 @@ one part of the product.
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Lenis45-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Lenis45)
+[![Telegram](https://img.shields.io/badge/Telegram-%40deni__kol-26A5E4?logo=telegram&logoColor=white&style=for-the-badge)](https://t.me/deni_kol)
 [![Portfolio](https://img.shields.io/badge/Portfolio-lenis45.github.io-58A6FF?style=for-the-badge)](https://lenis45.github.io)
 [![Main Project](https://img.shields.io/badge/Main_Project-agent--os-2EA043?style=for-the-badge)](https://github.com/Lenis45/agent-os)
 
@@ -218,6 +230,9 @@ one part of the product.
 ---
 
 ## Activity And Graphs
+
+Public graphs show only open GitHub activity. Private commercial Amori work is
+represented through public architecture notes and selected safe screenshots.
 
 <div align="center">
 
