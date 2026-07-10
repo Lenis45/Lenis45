@@ -6,16 +6,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=900&color=58A6FF&center=true&vCenter=true&width=940&lines=I+turn+business+processes+into+working+automation;AI-assisted+workflows+%C2%B7+dashboards+%C2%B7+queues+%C2%B7+audit;Founder-operator+building+Amori+pet-tech;Business+analysis+%2B+systems+design+%2B+implementation)](https://git.io/typing-svg)
 
-![Business Analysis](https://img.shields.io/badge/Business_Analysis-process_to_system-58A6FF?style=for-the-badge)
-![Automation](https://img.shields.io/badge/Automation-workflows_%26_ops-2EA043?style=for-the-badge)
-![AI Systems](https://img.shields.io/badge/AI_Systems-HITL_%26_audit-6B46C1?style=for-the-badge)
-
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white&style=flat-square)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white&style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-runtime-009688?logo=fastapi&logoColor=white&style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white&style=flat-square)
-![React](https://img.shields.io/badge/React-product_UI-61DAFB?logo=react&logoColor=black&style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-local_tools-6B46C1?style=flat-square)
+<img width="860" src="assets/role-badges.svg" alt="Business Analysis, Automation, and AI Systems badges" />
+<br />
+<img width="860" src="assets/tech-badges.svg" alt="Python, PostgreSQL, FastAPI, Docker, React, and MCP badges" />
 
 </div>
 
@@ -35,10 +28,10 @@
     <td width="50%">
       <h3>Open To</h3>
       <p>
-        <img src="https://img.shields.io/badge/Business%2FSystem_Analyst-58A6FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/Automation_Engineer-2EA043?style=flat-square" />
-        <img src="https://img.shields.io/badge/AI_Workflow%2FProduct_Ops-6B46C1?style=flat-square" />
-        <img src="https://img.shields.io/badge/Full--Stack_Automation-0D1117?style=flat-square" />
+        <code>Business/System Analyst</code>
+        <code>Automation Engineer</code>
+        <code>AI Workflow/Product Ops</code>
+        <code>Full-Stack Automation</code>
       </p>
     </td>
   </tr>
@@ -124,9 +117,9 @@ channel IDs, or provider credentials are shown.
         dashboard, Telegram operator UI, MCP bridge, backups, restore checks, and safety contracts.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/tests-90_passed-2EA043?style=flat-square" />
-        <img src="https://img.shields.io/badge/runtime-launchd%20%2B%20Docker-58A6FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/HITL-required-6B46C1?style=flat-square" />
+        <code>tests: 90 passed</code>
+        <code>runtime: launchd + Docker</code>
+        <code>HITL required</code>
       </p>
     </td>
     <td width="33%">
@@ -136,9 +129,9 @@ channel IDs, or provider credentials are shown.
         visual, editorial review, scheduling, approval, and Telegram delivery.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/domain-SMM_automation-4B6BFB?style=flat-square" />
-        <img src="https://img.shields.io/badge/product-local_box-2EA043?style=flat-square" />
-        <img src="https://img.shields.io/badge/audit-visible-58A6FF?style=flat-square" />
+        <code>domain: SMM automation</code>
+        <code>product: local box</code>
+        <code>audit visible</code>
       </p>
     </td>
     <td width="33%">
@@ -148,9 +141,9 @@ channel IDs, or provider credentials are shown.
         dashboards, failure states, and measurable handoff between human and automation.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/process-modeling-58A6FF?style=flat-square" />
-        <img src="https://img.shields.io/badge/data-boundaries-2EA043?style=flat-square" />
-        <img src="https://img.shields.io/badge/recovery-planned-6B46C1?style=flat-square" />
+        <code>process modeling</code>
+        <code>data boundaries</code>
+        <code>recovery planned</code>
       </p>
     </td>
   </tr>
@@ -220,10 +213,10 @@ state, permissions, review, observability, recovery, and a UI that people can us
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Lenis45-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Lenis45)
-[![Telegram](https://img.shields.io/badge/Telegram-%40deni__kol-26A5E4?logo=telegram&logoColor=white&style=for-the-badge)](https://t.me/deni_kol)
-[![Portfolio](https://img.shields.io/badge/Portfolio-lenis45.github.io-58A6FF?style=for-the-badge)](https://lenis45.github.io)
-[![Main Project](https://img.shields.io/badge/Main_Project-agent--os-2EA043?style=for-the-badge)](https://github.com/Lenis45/agent-os)
+<a href="https://github.com/Lenis45"><b>GitHub</b></a> ·
+<a href="https://t.me/deni_kol"><b>Telegram</b></a> ·
+<a href="https://lenis45.github.io"><b>Portfolio</b></a> ·
+<a href="https://github.com/Lenis45/agent-os"><b>Main Project</b></a>
 
 <p><b>Telegram:</b> <a href="https://t.me/deni_kol">@deni_kol</a></p>
 
