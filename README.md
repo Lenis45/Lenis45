@@ -156,6 +156,8 @@ channel IDs, or provider credentials are shown.
 | Project | What to evaluate |
 |---|---|
 | [agent-os](https://github.com/Lenis45/agent-os) | AI operating system architecture, runtime docs, tests, dashboard, MCP bridge |
+| [ai-devkit](https://github.com/Lenis45/ai-devkit) | Reproducible local AI agent tooling: shared skills layer, MCP servers, model routing, Ollama |
+| [hypothesis-hub](https://github.com/Lenis45/hypothesis-hub) | Analyst tooling as a product: RICE/HADI workflow, Next.js 16, Prisma, PostgreSQL |
 | [amori-smm-platform](https://github.com/Lenis45/amori-smm-platform) | Product thinking and architecture for SMM automation |
 | [lenis45.github.io](https://github.com/Lenis45/lenis45.github.io) | Portfolio and public-facing product presentation |
 | [online-store](https://github.com/Lenis45/online-store) | Full-stack fundamentals: React, Node/Express, PostgreSQL |
@@ -213,12 +215,20 @@ state, permissions, review, observability, recovery, and a UI that people can us
 
 <div align="center">
 
-<a href="https://github.com/Lenis45"><b>GitHub</b></a> ·
+<a href="mailto:denworkplace@gmail.com"><b>Email</b></a> ·
 <a href="https://t.me/deni_kol"><b>Telegram</b></a> ·
 <a href="https://lenis45.github.io"><b>Portfolio</b></a> ·
 <a href="https://github.com/Lenis45/agent-os"><b>Main Project</b></a>
 
-<p><b>Telegram:</b> <a href="https://t.me/deni_kol">@deni_kol</a></p>
+<p>
+<b>Email:</b> <a href="mailto:denworkplace@gmail.com">denworkplace@gmail.com</a>
+&nbsp;·&nbsp;
+<b>Telegram:</b> <a href="https://t.me/deni_kol">@deni_kol</a>
+&nbsp;·&nbsp;
+<b>Location:</b> Moscow
+</p>
+
+<p><i>Open to Business/System Analyst · Automation · AI Engineer roles — Moscow or remote.</i></p>
 
 </div>
 
